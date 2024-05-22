@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c2c2c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.search-container input {
+    padding: 5px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+.user-controls img {
+    height: 40px;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.subscribe, .join {
+    background-color: #ffbb00;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.subscribe:hover, .join:hover {
+    background-color: #ffa500;
+}
+
+.clips {
+    padding: 20px;
+}
+
+.clips-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clip, .announcement {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 48%;
+}
+
+.clip img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.announcement h3 {
+    margin: 0 0 10px 0;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.contact-item a {
+    color: #ffbb00;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+.social {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-container {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+footer {
+    background-color: #2c2c2c;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
